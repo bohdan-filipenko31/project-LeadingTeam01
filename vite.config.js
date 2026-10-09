@@ -3,6 +3,7 @@ import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
+<<<<<<< HEAD
 import sharp from 'sharp';
 import { optimize } from 'svgo';
 
@@ -50,6 +51,9 @@ function optimizeImages() {
     },
   };
 }
+=======
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+>>>>>>> 4acf8c9669aee7082503fbe813e9b84ba11215d1
 
 export default defineConfig(({ command }) => {
   return {
@@ -90,7 +94,28 @@ export default defineConfig(({ command }) => {
       SortCss({
         sort: 'mobile-first',
       }),
+<<<<<<< HEAD
       optimizeImages(),
+=======
+      ViteImageOptimizer({
+        png: {
+          quality: 80,
+        },
+        jpeg: {
+          quality: 80,
+        },
+        jpg: {
+          quality: 80,
+        },
+        svg: {
+          multipass: true,
+          plugins: [
+            'preset-default',
+            'sortAttrs',
+          ],
+        },
+      }),
+>>>>>>> 4acf8c9669aee7082503fbe813e9b84ba11215d1
     ],
   };
 });
