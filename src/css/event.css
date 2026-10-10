@@ -1,0 +1,154 @@
+.events {
+}
+.event .container {
+  margin: 64px auto;
+}
+.event-title {
+  font-family: 'Caveat', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+.event-dis {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.event-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 32px;
+}
+.event-item {
+  border: 1px solid #dbdada;
+  border-radius: 28px;
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.event-img {
+  display: block;
+  padding-bottom: 16px;
+  margin: auto;
+}
+.event-act {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+.event-loc {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.event-time {
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-left: auto;
+}
+.event-btn {
+  border: 1px solid rgba(12, 7, 8, 0.15);
+  border-radius: 100px;
+  padding: 8px 20px;
+  width: 311px;
+  height: 40px;
+  margin: auto;
+  font-weight: 500;
+}
+.event-btn:hover,
+.event-btn:focus {
+  opacity: 0.5;
+}
+.event-icon {
+  margin-right: 1.5px;
+}
+@media (min-width: 768px) {
+  .event .container {
+    max-width: 768px;
+  }
+  .event-list {
+    gap: 0;
+  }
+  .event-item {
+    position: relative;
+    flex-direction: column;
+    width: 704px;
+    height: 160px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #dbdada;
+    border-top: 1px solid #dbdada;
+    padding: 8px 0;
+  }
+  .event-img {
+    margin: 0;
+    border-radius: 16px;
+    width: 144px;
+    height: 144px;
+    padding: 0;
+  }
+  .event-btn {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 97px;
+    height: 40px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  .event-act {
+    width: 235px;
+    position: absolute;
+    left: 176px;
+    top: 54px;
+    padding: 0;
+  }
+  .event-time,
+  .event-loc {
+    margin-right: 129px;
+    margin-left: auto;
+  }
+  .event-loc {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .event .container {
+    max-width: 1440px;
+  }
+  .event-item {
+    width: 1312px;
+    flex-direction: row;
+  }
+  .event-act {
+    width: 100%;
+    top: 67px;
+  }
+  .event-time {
+    margin-right: 145px;
+    margin-left: 0;
+  }
+  .event-loc {
+    margin-right: 16px;
+    margin-top: 0;
+    width: 172px;
+  }
+}
