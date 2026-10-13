@@ -19,7 +19,7 @@
     />
     <title>Wild Sketch</title>
     <script type="module" crossorigin src="/project-LeadingTeam01/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-LeadingTeam01/assets/index-DboMVA7s.css">
+    <link rel="stylesheet" crossorigin href="/project-LeadingTeam01/assets/index-w2CO2eOb.css">
   </head>
   <body>
     
@@ -176,7 +176,6 @@
   </div>
 </section>
 
-      
       
       <section class="team" id="team">
   <div class="container">
@@ -496,6 +495,71 @@
         <p class="feedbacks-author">Thomas Becker</p>
       </li>
     </ul>
+  </div>
+</section>
+
+      <section class="register section" id="register">
+  <div class="container">
+    <div class="register-content">
+      <h2 class="register-title">Register</h2>
+
+      <form class="register-form">
+        <div class="register-field">
+          <label class="register-label" for="register-name"> Name </label>
+          <input
+            class="register-input"
+            type="text"
+            id="register-name"
+            name="name"
+            placeholder="Enter your name"
+            pattern="^[a-zA-Z\s\.]{5,64}$"
+            minlength="5"
+            maxlength="64"
+            autocomplete="name"
+            required
+          />
+          <span class="register-error">
+            Enter a name using 5–64 letters, spaces, or periods.
+          </span>
+        </div>
+
+        <div class="register-field">
+          <label class="register-label" for="register-email"> Email </label>
+          <input
+            class="register-input"
+            type="email"
+            id="register-email"
+            name="email"
+            placeholder="Enter your email"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            autocomplete="email"
+            required
+          />
+          <span class="register-error"> Enter a valid email address. </span>
+        </div>
+
+        <div class="register-field">
+          <label class="register-label" for="register-skills">
+            Describe your skills
+          </label>
+          <textarea
+            class="register-textarea"
+            id="register-skills"
+            name="skills"
+            placeholder="Describe your skills"
+            maxlength="500"
+          ></textarea>
+        </div>
+        <button class="register-button" type="submit">Register</button>
+      </form>
+    </div>
+    <img
+      class="register-image"
+      src="/project-LeadingTeam01/assets/register-CphKQDDK.jpg"
+      alt="Student registering for a course"
+      width="640"
+      height="734"
+    />
   </div>
 </section>
 
