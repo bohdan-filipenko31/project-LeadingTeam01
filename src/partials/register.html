@@ -53,12 +53,27 @@
         <button class="register-button" type="submit">Register</button>
       </form>
     </div>
-    <img
-      class="register-image"
-      src="/images/register/register.jpg"
-      alt="Student registering for a course"
-      width="640"
-      height="734"
-    />
+    <picture>
+      <source
+        type="image/webp"
+        srcset="
+          /images/register/register.webp    1x,
+          /images/register/register@2x.webp 2x
+        "
+      />
+      <img
+        class="register-image"
+        src="/images/register/register.jpg"
+        srcset="
+          /images/register/register.jpg    1x,
+          /images/register/register@2x.jpg 2x
+        "
+        alt="Student registering for a course"
+        width="640"
+        height="734"
+        loading="lazy"
+        decoding="async"
+      />
+    </picture>
   </div>
 </section>

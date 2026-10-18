@@ -1,3 +1,4 @@
+```html
 <section class="hero" id="hero">
   <div class="hero-container">
     <div class="hero-content">
@@ -16,16 +17,27 @@
       </div>
     </div>
 
-    <img
-      class="hero-image"
-      src="../images/hero/background-hero.png"
-      srcset="
-        ../images/hero/background-hero.png    1x,
-        ../images/hero/background-hero@2x.png 2x
-      "
-      alt="Watercolor illustration of houses surrounded by autumn leaves and flowers"
-      width="335"
-      height="257"
-    />
+    <picture>
+      <source
+        type="image/webp"
+        srcset="
+          /images/hero/background-hero.webp    1x,
+          /images/hero/background-hero@2x.webp 2x
+        "
+      />
+      <img
+        class="hero-image"
+        src="/images/hero/background-hero.png"
+        srcset="
+          /images/hero/background-hero.png    1x,
+          /images/hero/background-hero@2x.png 2x
+        "
+        alt="Watercolor illustration of houses surrounded by autumn leaves and flowers"
+        width="335"
+        height="257"
+        loading="lazy"
+        decoding="async"
+      />
+    </picture>
   </div>
 </section>
