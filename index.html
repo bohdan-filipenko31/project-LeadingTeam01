@@ -19,7 +19,7 @@
     />
     <title>Wild Sketch</title>
     <script type="module" crossorigin src="/project-LeadingTeam01/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-LeadingTeam01/assets/index-B0aSNhxC.css">
+    <link rel="stylesheet" crossorigin href="/project-LeadingTeam01/assets/index-Dgz6p6gq.css">
   </head>
   <body>
     <header class="header">
@@ -74,7 +74,8 @@
 
 
     <main>
-      <section class="hero" id="hero">
+      ```html
+<section class="hero" id="hero">
   <div class="hero-container">
     <div class="hero-content">
       <div class="text-container">
@@ -92,14 +93,22 @@
       </div>
     </div>
 
-    <img
-      class="hero-image"
-      src="../images/hero/background-hero.png"
-      srcset="../images/hero/background-hero.png 1x, ../images/hero/background-hero@2x.png 2x"
-      alt="Watercolor illustration of houses surrounded by autumn leaves and flowers"
-      width="335"
-      height="257"
-    />
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/project-LeadingTeam01/assets/background-hero-Dsqx1WhY.webp 1x, /project-LeadingTeam01/assets/background-hero@2x-C8miwghI.webp 2x"
+      />
+      <img
+        class="hero-image"
+        src="/project-LeadingTeam01/assets/background-hero-DZpKux6E.png"
+        srcset="/project-LeadingTeam01/assets/background-hero-DZpKux6E.png 1x, /project-LeadingTeam01/assets/background-hero@2x-D743dUAR.png 2x"
+        alt="Watercolor illustration of houses surrounded by autumn leaves and flowers"
+        width="335"
+        height="257"
+        loading="lazy"
+        decoding="async"
+      />
+    </picture>
   </div>
 </section>
 
@@ -176,60 +185,116 @@
     </p>
     <ul class="gallery-list">
       <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="/project-LeadingTeam01/assets/img-1-D779Yi9r.jpg"
-          srcset="/project-LeadingTeam01/assets/img-1-D779Yi9r.jpg 1x, /project-LeadingTeam01/assets/img-1x2-BZUuW9ug.jpg 2x"
-          alt="Painting of distant mountains with wildflowers in the foreground"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/img-1-1hfFqUEs.webp 1x, /project-LeadingTeam01/assets/img-1x2-Bx6jBeHI.webp 2x"
+          />
+          <img
+            class="gallery-img"
+            src="/project-LeadingTeam01/assets/img-1-D779Yi9r.jpg"
+            srcset="/project-LeadingTeam01/assets/img-1-D779Yi9r.jpg 1x, /project-LeadingTeam01/assets/img-1x2-BZUuW9ug.jpg 2x"
+            alt="Painting of distant mountains with wildflowers in the foreground"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="/project-LeadingTeam01/assets/img-2-BwZKqMT1.jpg"
-          srcset="/project-LeadingTeam01/assets/img-2-BwZKqMT1.jpg 1x, /project-LeadingTeam01/assets/img-2x2-BGyur5tW.jpg 2x"
-          alt="Painting of a fir forest against a mountain backdrop"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/img-2-BlYa6qqs.webp 1x, /project-LeadingTeam01/assets/img-2x2-Uf-mabBf.webp 2x"
+          />
+          <img
+            class="gallery-img"
+            src="/project-LeadingTeam01/assets/img-2-BwZKqMT1.jpg"
+            srcset="/project-LeadingTeam01/assets/img-2-BwZKqMT1.jpg 1x, /project-LeadingTeam01/assets/img-2x2-BGyur5tW.jpg 2x"
+            alt="Painting of a fir forest against a mountain backdrop"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="/project-LeadingTeam01/assets/img-3-BjP0PFjd.jpg"
-          srcset="/project-LeadingTeam01/assets/img-3-BjP0PFjd.jpg 1x, /project-LeadingTeam01/assets/img-3x2-Bx9fQRKm.jpg 2x"
-          alt="Watercolor painting of fir trees"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/img-3-B-VxYlPi.webp 1x, /project-LeadingTeam01/assets/img-3x2-DFY8Bh67.webp 2x"
+          />
+          <img
+            class="gallery-img"
+            src="/project-LeadingTeam01/assets/img-3-BjP0PFjd.jpg"
+            srcset="/project-LeadingTeam01/assets/img-3-BjP0PFjd.jpg 1x, /project-LeadingTeam01/assets/img-3x2-Bx9fQRKm.jpg 2x"
+            alt="Watercolor painting of fir trees"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="/project-LeadingTeam01/assets/img-4-Bf5gkbqa.jpg"
-          srcset="/project-LeadingTeam01/assets/img-4-Bf5gkbqa.jpg 1x, /project-LeadingTeam01/assets/img-4x2-BNpYEffY.jpg 2x"
-          alt="Painting of hills and a stream along a road"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/img-4-D1PWmj56.webp 1x, /project-LeadingTeam01/assets/img-4x2-ChqOVjPm.webp 2x"
+          />
+          <img
+            class="gallery-img"
+            src="/project-LeadingTeam01/assets/img-4-Bf5gkbqa.jpg"
+            srcset="/project-LeadingTeam01/assets/img-4-Bf5gkbqa.jpg 1x, /project-LeadingTeam01/assets/img-4x2-BNpYEffY.jpg 2x"
+            alt="Painting of hills and a stream along a road"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="/project-LeadingTeam01/assets/img-5-Dw7Lykas.jpg"
-          srcset="/project-LeadingTeam01/assets/img-5-Dw7Lykas.jpg 1x, /project-LeadingTeam01/assets/img-5x2-Dd6hYf0H.jpg 2x"
-          alt="Painting of a daisy with a ladybug on it"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/img-5-i50Y9f2V.webp 1x, /project-LeadingTeam01/assets/img-5x2--OtvsS1e.webp 2x"
+          />
+          <img
+            class="gallery-img"
+            src="/project-LeadingTeam01/assets/img-5-Dw7Lykas.jpg"
+            srcset="/project-LeadingTeam01/assets/img-5-Dw7Lykas.jpg 1x, /project-LeadingTeam01/assets/img-5x2-Dd6hYf0H.jpg 2x"
+            alt="Painting of a daisy with a ladybug on it"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="/project-LeadingTeam01/assets/img-6-CBfY4wGU.jpg"
-          srcset="/project-LeadingTeam01/assets/img-6-CBfY4wGU.jpg 1x, /project-LeadingTeam01/assets/img-6x2-CHhumgkr.jpg 2x"
-          alt="Painting of a deer in the mountains among trees"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/img-6-DMjUJ72T.webp 1x, /project-LeadingTeam01/assets/img-6x2-BFImTORT.webp 2x"
+          />
+          <img
+            class="gallery-img"
+            src="/project-LeadingTeam01/assets/img-6-CBfY4wGU.jpg"
+            srcset="/project-LeadingTeam01/assets/img-6-CBfY4wGU.jpg 1x, /project-LeadingTeam01/assets/img-6x2-CHhumgkr.jpg 2x"
+            alt="Painting of a deer in the mountains among trees"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
       </li>
       <li class="gallery-item">
-        <img
-          class="gallery-img"
-          src="/project-LeadingTeam01/assets/img-7-C38dMa54.jpg"
-          srcset="/project-LeadingTeam01/assets/img-7-C38dMa54.jpg 1x, /project-LeadingTeam01/assets/img-7x2-Ci1hj17I.jpg 2x"
-          alt="Still life with a basket, candles, a book and fish"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/img-7-in4hk8ub.webp 1x, /project-LeadingTeam01/assets/img-7x2-DIClzqw7.webp 2x"
+          />
+          <img
+            class="gallery-img"
+            src="/project-LeadingTeam01/assets/img-7-C38dMa54.jpg"
+            srcset="/project-LeadingTeam01/assets/img-7-C38dMa54.jpg 1x, /project-LeadingTeam01/assets/img-7x2-Ci1hj17I.jpg 2x"
+            alt="Still life with a basket, candles, a book and fish"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
       </li>
     </ul>
   </div>
@@ -244,14 +309,22 @@
     </p>
     <ul class="event-list">
       <li class="event-item">
-        <img
-          class="event-pic"
-          src="/project-LeadingTeam01/assets/event1-Bv13_dBo.jpg"
-          srcset="/project-LeadingTeam01/assets/event1-Bv13_dBo.jpg 1x, /project-LeadingTeam01/assets/event1x2-B3omxiAe.jpg 2x"
-          alt="Morning Light Sketching"
-          width="311"
-          height="225"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/event1-BIsiUGn6.webp 1x, /project-LeadingTeam01/assets/event1x2-D6UXVJLC.webp 2x"
+          />
+          <img
+            class="event-pic"
+            src="/project-LeadingTeam01/assets/event1-Bv13_dBo.jpg"
+            srcset="/project-LeadingTeam01/assets/event1-Bv13_dBo.jpg 1x, /project-LeadingTeam01/assets/event1x2-B3omxiAe.jpg 2x"
+            alt="Morning Light Sketching"
+            width="311"
+            height="225"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <h3 class="event-name">Morning Light Sketching</h3>
         <div class="event-info">
           <a
@@ -270,14 +343,22 @@
         <a class="btn btn-secondary event-btn" href="#register">Register</a>
       </li>
       <li class="event-item">
-        <img
-          class="event-pic"
-          src="/project-LeadingTeam01/assets/event2-Cjy3FhCF.jpg"
-          srcset="/project-LeadingTeam01/assets/event2-Cjy3FhCF.jpg 1x, /project-LeadingTeam01/assets/event2x2-BIdgD7jS.jpg 2x"
-          alt="Floral Focus: Painting Wildflowers"
-          width="311"
-          height="225"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/event2-BnDOgOLW.webp 1x, /project-LeadingTeam01/assets/event2x2-CLc3AYyC.webp 2x"
+          />
+          <img
+            class="event-pic"
+            src="/project-LeadingTeam01/assets/event2-Cjy3FhCF.jpg"
+            srcset="/project-LeadingTeam01/assets/event2-Cjy3FhCF.jpg 1x, /project-LeadingTeam01/assets/event2x2-BIdgD7jS.jpg 2x"
+            alt="Floral Focus: Painting Wildflowers"
+            width="311"
+            height="225"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <h3 class="event-name">Floral Focus: Painting Wildflowers</h3>
         <div class="event-info">
           <a
@@ -296,14 +377,22 @@
         <a class="btn btn-secondary event-btn" href="#register">Register</a>
       </li>
       <li class="event-item">
-        <img
-          class="event-pic"
-          src="/project-LeadingTeam01/assets/event3-D7DfTUM8.jpg"
-          srcset="/project-LeadingTeam01/assets/event3-D7DfTUM8.jpg 1x, /project-LeadingTeam01/assets/event3x2-DByEIf0U.jpg 2x"
-          alt="Color & Composition Basics"
-          width="311"
-          height="225"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/event3-Dpv_QOJt.webp 1x, /project-LeadingTeam01/assets/event3x2-DdQ6YCF7.webp 2x"
+          />
+          <img
+            class="event-pic"
+            src="/project-LeadingTeam01/assets/event3-D7DfTUM8.jpg"
+            srcset="/project-LeadingTeam01/assets/event3-D7DfTUM8.jpg 1x, /project-LeadingTeam01/assets/event3x2-DByEIf0U.jpg 2x"
+            alt="Color & Composition Basics"
+            width="311"
+            height="225"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <h3 class="event-name">Color &amp; Composition Basics</h3>
         <div class="event-info">
           <a
@@ -322,14 +411,22 @@
         <a class="btn btn-secondary event-btn" href="#register">Register</a>
       </li>
       <li class="event-item">
-        <img
-          class="event-pic"
-          src="/project-LeadingTeam01/assets/event4-C0gUuun9.jpg"
-          srcset="/project-LeadingTeam01/assets/event4-C0gUuun9.jpg 1x, /project-LeadingTeam01/assets/event4x2-n3mb38ME.jpg 2x"
-          alt="Drawing Stillness: Meditative Sketching"
-          width="311"
-          height="225"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/event4-DAQUiII0.webp 1x, /project-LeadingTeam01/assets/event4x2-BXfE308H.webp 2x"
+          />
+          <img
+            class="event-pic"
+            src="/project-LeadingTeam01/assets/event4-C0gUuun9.jpg"
+            srcset="/project-LeadingTeam01/assets/event4-C0gUuun9.jpg 1x, /project-LeadingTeam01/assets/event4x2-n3mb38ME.jpg 2x"
+            alt="Drawing Stillness: Meditative Sketching"
+            width="311"
+            height="225"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <h3 class="event-name">Drawing Stillness: Meditative Sketching</h3>
         <div class="event-info">
           <a
@@ -348,14 +445,22 @@
         <a class="btn btn-secondary event-btn" href="#register">Register</a>
       </li>
       <li class="event-item">
-        <img
-          class="event-pic"
-          src="/project-LeadingTeam01/assets/event5-BwMcKdIJ.jpg"
-          srcset="/project-LeadingTeam01/assets/event5-BwMcKdIJ.jpg 1x, /project-LeadingTeam01/assets/event5x2-C5K3Hhsd.jpg 2x"
-          alt="Golden Hour Landscape Study"
-          width="311"
-          height="225"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/event5-gFY9QDxZ.webp 1x, /project-LeadingTeam01/assets/event5x2-AQBPL8WF.webp 2x"
+          />
+          <img
+            class="event-pic"
+            src="/project-LeadingTeam01/assets/event5-BwMcKdIJ.jpg"
+            srcset="/project-LeadingTeam01/assets/event5-BwMcKdIJ.jpg 1x, /project-LeadingTeam01/assets/event5x2-C5K3Hhsd.jpg 2x"
+            alt="Golden Hour Landscape Study"
+            width="311"
+            height="225"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <h3 class="event-name">Golden Hour Landscape Study</h3>
         <div class="event-info">
           <a
@@ -387,78 +492,126 @@
     </div>
     <ul class="team-list">
       <li class="team-item">
-        <img
-          class="team-photo"
-          src="/project-LeadingTeam01/assets/Emma-Dfhwstsj.jpg"
-          srcset="/project-LeadingTeam01/assets/Emma-Dfhwstsj.jpg 1x, /project-LeadingTeam01/assets/Emma@2x-B9LNqVSb.jpg 2x"
-          alt="Emma Caldwell"
-          width="152"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="data:image/webp;base64,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 1x, /project-LeadingTeam01/assets/Emma@2x-CkYoFqFE.webp 2x"
+          />
+          <img
+            class="team-photo"
+            src="/project-LeadingTeam01/assets/Emma-Dfhwstsj.jpg"
+            srcset="/project-LeadingTeam01/assets/Emma-Dfhwstsj.jpg 1x, /project-LeadingTeam01/assets/Emma@2x-B9LNqVSb.jpg 2x"
+            alt="Emma Caldwell"
+            width="152"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <div class="team-info">
           <h3 class="team-name">Emma Caldwell</h3>
           <p class="team-position">Lead Art Instructor</p>
         </div>
       </li>
       <li class="team-item">
-        <img
-          class="team-photo"
-          src="/project-LeadingTeam01/assets/Lina-lmQ7tdNA.jpg"
-          srcset="/project-LeadingTeam01/assets/Lina-lmQ7tdNA.jpg 1x, /project-LeadingTeam01/assets/Lina@2x-Bpi_JL6O.jpg 2x"
-          alt="Lina Morales"
-          width="152"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="data:image/webp;base64,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 1x, /project-LeadingTeam01/assets/Lina@2x-G6q6tUiq.webp 2x"
+          />
+          <img
+            class="team-photo"
+            src="/project-LeadingTeam01/assets/Lina-lmQ7tdNA.jpg"
+            srcset="/project-LeadingTeam01/assets/Lina-lmQ7tdNA.jpg 1x, /project-LeadingTeam01/assets/Lina@2x-Bpi_JL6O.jpg 2x"
+            alt="Lina Morales"
+            width="152"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <div class="team-info">
           <h3 class="team-name">Lina Morales</h3>
           <p class="team-position">Creative Workshop Coordinator</p>
         </div>
       </li>
       <li class="team-item">
-        <img
-          class="team-photo"
-          src="/project-LeadingTeam01/assets/Owen-C8xaNPKQ.jpg"
-          srcset="/project-LeadingTeam01/assets/Owen-C8xaNPKQ.jpg 1x, /project-LeadingTeam01/assets/Owen@2x-IOMfMhpf.jpg 2x"
-          alt="Owen Fischer"
-          width="152"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="data:image/webp;base64,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 1x, /project-LeadingTeam01/assets/Owen@2x-04IMFaFQ.webp 2x"
+          />
+          <img
+            class="team-photo"
+            src="/project-LeadingTeam01/assets/Owen-C8xaNPKQ.jpg"
+            srcset="/project-LeadingTeam01/assets/Owen-C8xaNPKQ.jpg 1x, /project-LeadingTeam01/assets/Owen@2x-IOMfMhpf.jpg 2x"
+            alt="Owen Fischer"
+            width="152"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <div class="team-info">
           <h3 class="team-name">Owen Fischer</h3>
           <p class="team-position">Materials & Techniques Expert</p>
         </div>
       </li>
       <li class="team-item">
-        <img
-          class="team-photo"
-          src="../images/team/Naomi.jpg"
-          srcset="/project-LeadingTeam01/assets/Naomi-DJYUkaYD.jpg 1x, /project-LeadingTeam01/assets/Naomi@2x-DDtxSrn5.jpg 2x"
-          alt="Naomi Lee"
-          width="152"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/Naomi-CDt97H5c.webp 1x, /project-LeadingTeam01/assets/Naomi@2x-BNYbNTnO.webp 2x"
+          />
+          <img
+            class="team-photo"
+            src="../images/team/Naomi.jpg"
+            srcset="/project-LeadingTeam01/assets/Naomi-DJYUkaYD.jpg 1x, /project-LeadingTeam01/assets/Naomi@2x-DDtxSrn5.jpg 2x"
+            alt="Naomi Lee"
+            width="152"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <div class="team-info">
           <h3 class="team-name">Naomi Lee</h3>
           <p class="team-position">Mindfulness & Sketching Coach</p>
         </div>
       </li>
       <li class="team-item">
-        <img
-          class="team-photo"
-          src="/project-LeadingTeam01/assets/Jack-Ctqd7aDl.jpg"
-          srcset="/project-LeadingTeam01/assets/Jack-Ctqd7aDl.jpg 1x, /project-LeadingTeam01/assets/Jack@2x-JO2HVxWE.jpg 2x"
-          alt="Jack Turner"
-          width="152"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="data:image/webp;base64,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 1x, /project-LeadingTeam01/assets/Jack@2x-DCxcsPq8.webp 2x"
+          />
+          <img
+            class="team-photo"
+            src="/project-LeadingTeam01/assets/Jack-Ctqd7aDl.jpg"
+            srcset="/project-LeadingTeam01/assets/Jack-Ctqd7aDl.jpg 1x, /project-LeadingTeam01/assets/Jack@2x-JO2HVxWE.jpg 2x"
+            alt="Jack Turner"
+            width="152"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <div class="team-info">
           <h3 class="team-name">Jack Turner</h3>
           <p class="team-position">Photographer & Visual Archivist</p>
         </div>
       </li>
       <li class="team-item">
-        <img
-          class="team-photo"
-          src="/project-LeadingTeam01/assets/Ben-BLRqxJIx.jpg"
-          srcset="/project-LeadingTeam01/assets/Ben-BLRqxJIx.jpg 1x, /project-LeadingTeam01/assets/Ben@2x-HDznIvWc.jpg 2x"
-          alt="Ben Novak"
-          width="152"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/project-LeadingTeam01/assets/Ben-QL5xHBYO.webp 1x, /project-LeadingTeam01/assets/Ben@2x-CNyxUF0E.webp 2x"
+          />
+          <img
+            class="team-photo"
+            src="/project-LeadingTeam01/assets/Ben-BLRqxJIx.jpg"
+            srcset="/project-LeadingTeam01/assets/Ben-BLRqxJIx.jpg 1x, /project-LeadingTeam01/assets/Ben@2x-HDznIvWc.jpg 2x"
+            alt="Ben Novak"
+            width="152"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
         <div class="team-info">
           <h3 class="team-name">Ben Novak</h3>
           <p class="team-position">Outdoor Logistics Manager</p>
@@ -753,13 +906,22 @@
         <button class="register-button" type="submit">Register</button>
       </form>
     </div>
-    <img
-      class="register-image"
-      src="/project-LeadingTeam01/assets/register-CphKQDDK.jpg"
-      alt="Student registering for a course"
-      width="640"
-      height="734"
-    />
+    <picture>
+      <source
+        type="image/webp"
+        srcset="/project-LeadingTeam01/assets/register-DCY-Gaxl.webp 1x, /project-LeadingTeam01/assets/register@2x-BUZXalQ9.webp 2x"
+      />
+      <img
+        class="register-image"
+        src="/project-LeadingTeam01/assets/register-CphKQDDK.jpg"
+        srcset="/project-LeadingTeam01/assets/register-CphKQDDK.jpg 1x, /project-LeadingTeam01/assets/register@2x-b0vw5Yk4.jpg 2x"
+        alt="Student registering for a course"
+        width="640"
+        height="734"
+        loading="lazy"
+        decoding="async"
+      />
+    </picture>
   </div>
 </section>
 
