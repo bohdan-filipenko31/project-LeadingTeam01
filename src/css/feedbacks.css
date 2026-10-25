@@ -1,9 +1,12 @@
+.feedbacks {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
 .feedbacks .container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 64px;
-  padding-bottom: 64px;
   gap: 32px;
 }
 
@@ -69,10 +72,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .feedbacks .container {
-    padding: 64px 32px;
-  }
-
   .feedbacks-list {
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +85,6 @@
 
 @media screen and (min-width: 1440px) {
   .feedbacks .container {
-    padding: 64px;
     gap: 80px;
   }
   .feedbacks-list {
