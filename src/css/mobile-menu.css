@@ -69,7 +69,19 @@ ul {
   padding: 8px 20px;
   background-color: #ffb780;
 }
+.mobile-menu-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background: transparent;
+  border: none;
+  color: #0c0708;
+}
 .icon {
+  display: block;
 }
 .mobile-menu-row {
   display: flex;
