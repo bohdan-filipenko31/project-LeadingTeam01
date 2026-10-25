@@ -1,9 +1,12 @@
+.team {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
 .team .container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 64px;
-  padding-bottom: 64px;
   gap: 40px;
 }
 
